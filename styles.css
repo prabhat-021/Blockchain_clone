@@ -1,0 +1,392 @@
+#top {
+    top: 0;
+    background-image: linear-gradient(to right, rgb(9, 86, 191), rgb(4, 64, 143), rgb(2, 54, 120), rgb(4, 64, 143), rgb(9, 86, 191));
+    text-align: center;
+    padding: 0.7rem 1rem; 
+}
+
+.top{
+    color: white;
+    font-weight: 600;
+    font-size: 1.04rem;
+}
+
+#logo {
+    margin: 1rem 0.5rem 1rem 2rem;
+    width: 2rem;
+}
+
+.logo {
+    display: flex;
+}
+
+h2 {
+    margin: 1rem 0 0 0;
+    color: white;
+}
+
+.logo a {
+    text-decoration: none;
+    padding-right: 1rem;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+}
+
+#front {
+    background-image: url(images//gradient.svg);
+}
+
+#navbar {
+    margin: 1rem 0 0 0;
+    display: flex;
+    color: white;
+}
+
+.navbar {
+    padding: 0.5rem 1.5rem;
+    transform: scale(1, 1.1);
+    font-size: 1.02rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: rgb(223, 217, 217);
+}
+
+.para1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 650;
+    line-height: 3.625rem;
+    max-width: 50rem;
+    padding-top: 8rem;
+    padding-left: 2rem;
+}
+
+.para2 {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 2rem;
+    max-width: 50rem;
+}
+
+#cont1 {
+    background-image: url(images//gradient.svg);
+    height: 40rem;  
+}
+
+.buttons {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.75rem 1.375rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 144%;
+    border-radius: 0.5rem;
+
+}
+#btn_login{
+    display: flex;
+    flex-direction: row;
+}
+#stbtn {
+    background-color: rgb(12, 108, 242);
+    color: rgb(255, 255, 255);
+    margin: 0px 32px;
+}
+
+.ltbtn {
+    background-color: white;
+    color: rgb(47, 57, 150);
+}
+
+.button button {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    border-radius: 0.5rem;
+    padding: 0.625rem 0.875rem;
+    font-size: 0.875rem;
+    line-height: 143%;
+}
+
+#log {
+    background-color: transparent;
+    margin: 0 1rem;
+    color: white;
+}
+
+.button {
+    display: inline-flex;
+    position: absolute;
+    right: 3rem;
+}
+
+#search {
+    display: flex;
+    border-radius: 50%;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: rgba(85, 84, 84, 0.5);
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#blocks {
+    margin: -4rem 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.block {
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+    border-radius: 0.5rem;
+    color: rgb(18, 29, 51);
+    min-width: 0px;
+    padding: 1.25rem;
+    margin: 0.75rem;
+}
+
+.buy {
+    background-color: rgb(217, 212, 245);
+    border-radius: 0.25rem;
+    border: none;
+    color: rgb(83, 34, 229);
+    cursor: pointer;
+    font-weight: 500;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    transition: 0.3s ease 0s;
+    margin: 0px 0.2rem 0px 0.8rem;
+}
+
+
+.trade {
+    background-color: rgb(183, 247, 233);
+    border-radius: 0.25rem;
+    border: none;
+    color: rgb(0, 153, 76);
+    cursor: pointer;
+    font-weight: 500;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    transition: 0.3s ease 0s;
+    margin-right: 0.5rem;
+}
+
+
+#img_deso {
+    height: 2.5rem;
+    width: 2.5rem;
+
+}
+
+.blockhead img {
+    margin: -1rem 0.5rem;
+}
+
+.mid {
+    margin: 1.2rem 0.5rem 0.5rem 0.5rem;
+    display: flex;
+    font-size: 1.1rem;
+}
+
+.bold {
+    font-weight: 550;
+    margin: 0px 0.5rem 0px 0px;
+    color: black;
+}
+
+.list_item {
+    font-weight: 600;
+    color: rgb(88, 88, 88);
+    margin: 0px 0px 0px 0.25rem;
+}
+
+.botom {
+    display: flex;
+    margin: 0.5rem 0.5rem;
+}
+
+.green {
+    font-weight: 600;
+    color: rgb(2, 168, 105);
+}
+
+.large {
+    font-size: 1.3rem;
+}
+
+.box {
+    display: flex;
+    margin: 10rem 2rem -5rem 2rem;
+    border-radius: 2rem;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+
+}
+
+#Wallet {
+    background-color: rgb(238, 231, 253);
+    color: rgb(96, 50, 221);
+    background-image: url(images//purple_background.png);
+    overflow: hidden;
+    background-size: 35rem;
+    background-position: right top 2.5rem;
+    background-repeat: no-repeat;
+}
+
+#Main_boxs {
+    padding: 3rem 2rem 2rem 7rem;
+}
+
+#box2 {
+    padding: 9rem 0px 2rem 0px;
+}
+
+#wallet {
+    align-self: flex-start;
+    background-color: rgb(214, 207, 243, 50%);
+    border-radius: 1.25rem;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 1.25rem;
+    padding: 1rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.heading2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 3.25rem;
+    margin: 0.5rem 0px 1.75rem 0px;
+    max-width: 30rem;
+}
+
+.content2 {
+    align-self: flex-start;
+    border-radius: 1rem;
+    align-items: center;
+    margin-bottom: 0.75rem;
+    padding: 1rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    max-width: 25rem;
+}
+
+#Exchange {
+    background-color: rgb(236, 243, 253);
+    color: rgb(12, 108, 242);
+    background-image: url(images//blue_background.png);
+    overflow: hidden;
+    background-size: 35rem;
+    background-position: right top 2.5rem;
+    background-repeat: no-repeat;
+
+}
+
+#Institutional {
+    background-color: rgb(235, 235, 235, 30%);
+    background-image: url(images//grey_background.png);
+    overflow: hidden;
+    background-size: 35rem;
+    background-position: right top 2.5rem;
+    background-repeat: no-repeat;
+}
+
+#Explore {
+    background-color: rgb(255, 247, 228);
+    color: rgb(255, 153, 0);
+    background-image: url(images//orange_background.png);
+    overflow: hidden;
+    background-size: 35rem;
+    background-position: right top 2.5rem;
+    background-repeat: no-repeat;
+}
+
+
+
+#box_started {
+    border-radius: 0.5rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 1.2rem 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.25rem;
+    margin-top: 0.75rem;
+    margin-left: 0.4rem;
+}
+
+.font_increase {
+    font-size: 1rem;
+    margin: 1rem 0px;
+}
+
+#banner {
+    position: relative;
+    padding: 5rem 5rem;
+    margin: 6rem 0px;
+    display: flex;
+    background-color: rgb(1, 1, 34);
+    background-image: url(images//banner-bg.svg);
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.banner{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.header_logo {
+    display: flex;
+}
+
+#medium {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+#footer {
+    display: flex;
+    padding: 2rem 2rem;
+}
+
+#footer1 div {
+    margin-bottom: 0.75rem;
+}
+
+#footer h1 {
+    margin: 0.5rem 2rem 1.5rem 0px;
+    padding-right: 12rem;
+}
+
+#footer2 {
+    display: flex;
+}
+
+#footer2 li {
+    list-style-type: none;
+    margin: 1rem;
+    
+}
+
+#banner{
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 3rem 4rem;
+}
+/*  END OF THE TASK */
