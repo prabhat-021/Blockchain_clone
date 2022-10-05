@@ -389,4 +389,26 @@ h2 {
     align-items: flex-start;
     padding: 3rem 4rem;
 }
+@media screen and (max-width:420px) {
+    #footer ,#footer2{
+        display: block;
+    }
+    #banner{
+        margin-bottom: 0;
+    }
+    ul{
+        padding: 0;
+    }
+    #list1,#list2,#list3{
+        border: 2px solid black;
+        margin-top: 2%;
+    }
+    #navbar{
+        display: none;
+    }
+    .h1{
+        z-index: 11;
+        color: black;
+    }
+}
 /*  END OF THE TASK */
